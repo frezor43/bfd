@@ -9,7 +9,7 @@ color: #222;
 header {
 background:#1f3c5c;
 color:white;
-padding:30px 20px 20px 20px;
+padding:20px 20px 15px 20px;
 }
 
 header h1 {
@@ -75,8 +75,8 @@ color: #777;
 }
 
 .logo {
-height:300px;
+height:220px;
 display:block;
-margin:-40px auto 10px auto;
+margin:0 auto 20px auto;
 }
 
