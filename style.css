@@ -74,9 +74,7 @@ color: #777;
 }
 
 .logo {
-height: 110px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 10px;
+height:180px;
+display:block;
+margin:0 auto 10px auto;
 }
