@@ -10,7 +10,6 @@ header {
 background:#1f3c5c;
 color:white;
 padding:30px 20px 20px 20px;
-text-align:center;
 }
 
 header h1 {
@@ -75,8 +74,8 @@ padding: 20px;
 color: #777;
 }
 
-.logo {
-height:220px;
-display:block;
-margin:0 auto 10px auto;
+header {
+background:#1f3c5c;
+color:white;
+padding:30px 20px 20px 20px;
 }
