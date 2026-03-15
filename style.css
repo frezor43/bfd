@@ -78,5 +78,5 @@ color: #777;
 height:220px;
 display:block;
 margin:0 auto 20px auto;
-filter: drop-shadow(0 0 1px rgba(0,0,0,0.6));
+filter: drop-shadow(0 0 1px rgba(0,0,0,0.35));
 }
