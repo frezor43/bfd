@@ -82,3 +82,8 @@ background:white;
 padding:10px;
 border-radius:20px;
 }
+
+nav a:hover {
+text-decoration: underline;
+opacity: 0.85;
+}
