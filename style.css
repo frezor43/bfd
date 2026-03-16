@@ -146,3 +146,12 @@ display: block;
 .dropdown:hover .dropdown-content {
 display: block;
 }
+
+.headertext {
+max-width: 700px;
+}
+
+.bfdintro {
+margin: 10px 0 15px 0;
+line-height: 1.4;
+}
