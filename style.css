@@ -5,6 +5,8 @@ background: #3b6a96;
 color: #222;
 }
 
+/* HEADER */
+
 header {
 background:#3b6a96;
 color:white;
@@ -13,6 +15,14 @@ display:flex;
 align-items:center;
 gap:30px;
 }
+
+header h1{
+margin:0;
+text-align:center;
+font-size:34px;
+}
+
+/* midterblok i header */
 
 .headertext{
 flex:1;
@@ -23,9 +33,11 @@ flex-direction:column;
 align-items:center;
 }
 
+/* navigation */
+
 nav {
 margin-top:10px;
-text-align:left;
+text-align:center;
 }
 
 nav a {
@@ -40,6 +52,8 @@ text-decoration: underline;
 opacity: 0.85;
 }
 
+/* main indhold */
+
 main {
 max-width: 900px;
 margin: 30px auto;
@@ -52,6 +66,8 @@ box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 h2 {
 color: #1f3c5c;
 }
+
+/* klub oversigt */
 
 .clublist {
 display: grid;
@@ -71,6 +87,8 @@ font-weight: bold;
 border-radius: 6px;
 }
 
+/* knapper */
+
 .button {
 display: inline-block;
 padding: 12px 20px;
@@ -86,22 +104,25 @@ transition: background 0.2s;
 background: #2f5a85;
 }
 
+/* footer */
+
 footer {
 text-align: center;
 padding: 20px;
 color: #777;
 }
 
+/* logo venstre */
+
 .logo {
 height:220px;
 display:block;
-margin:0 auto 20px auto;
 background:white;
 padding:10px;
 border-radius:20px;
 }
 
-/* NYT – logo i højre side */
+/* logo højre */
 
 .logo-right{
 height:220px;
@@ -164,11 +185,7 @@ display: block;
 display: block;
 }
 
-/* header tekst */
-
-.headertext{
-max-width:900px;
-}
+/* tekst i header */
 
 .bfdintro{
 margin-top:16px;
