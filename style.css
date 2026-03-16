@@ -6,13 +6,13 @@ background: #3b6a96;
 color: #222;
 }
 
-header {
+hheader {
 background:#3b6a96;
 color:white;
 padding:15px 20px;
 display:flex;
-justify-content:space-between;
 align-items:flex-start;
+gap:30px;
 }
 
 header h1 {
