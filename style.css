@@ -71,8 +71,12 @@ color: white;
 text-decoration: none;
 border-radius: 5px;
 margin-top: 10px;
+transition: background 0.2s;
 }
 
+.button:hover {
+background: #2f5a85;
+}
 footer {
 text-align: center;
 padding: 20px;
