@@ -20,6 +20,7 @@ text-align:left;
 nav {
 margin-top:10px;
 text-align:left;
+position: relative;
 }
 
 nav a {
