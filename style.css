@@ -18,6 +18,9 @@ gap:30px;
 flex:1;
 text-align:center;
 padding:0 40px;
+display:flex;
+flex-direction:column;
+align-items:center;
 }
 
 nav {
@@ -167,14 +170,12 @@ display: block;
 max-width:900px;
 }
 
-.bfdintro {
-margin-top:14px;
-font-size:16px;
+.bfdintro{
+margin-top:16px;
+max-width:850px;
+font-size:17px;
 line-height:1.6;
 color:white;
-max-width:1000px;
-margin-left:auto;
-margin-right:auto;
 }
 
 /* nyheder */
