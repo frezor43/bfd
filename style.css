@@ -151,9 +151,10 @@ display: block;
 max-width:900px;
 }
 
-.bfdintro{
-margin-top:10px;
-line-height:1.4;
+.bfdintro {
+margin-top:12px;
+max-width:700px;
 font-size:14px;
+line-height:1.5;
 color:white;
 }
