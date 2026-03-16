@@ -23,7 +23,6 @@ text-align:left;
 nav {
 margin-top:10px;
 text-align:left;
-position: relative;
 }
 
 nav a {
@@ -90,10 +89,12 @@ color: #777;
 }
 
 .logo {
-height:120px;
+height:220px;
+display:block;
+margin:0 auto 20px auto;
 background:white;
-padding:8px;
-border-radius:15px;
+padding:10px;
+border-radius:20px;
 }
 
 .dropdown {
