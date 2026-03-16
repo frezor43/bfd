@@ -147,11 +147,13 @@ display: block;
 display: block;
 }
 
-.headertext {
-max-width: 700px;
+.headertext{
+max-width:900px;
 }
 
-.bfdintro {
-margin: 10px 0 15px 0;
-line-height: 1.4;
+.bfdintro{
+margin-top:10px;
+line-height:1.4;
+font-size:14px;
+color:white;
 }
