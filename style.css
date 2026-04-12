@@ -67,6 +67,16 @@ h2 {
 color: #1f3c5c;
 }
 
+/* links i indhold */
+
+main a,
+main a:visited,
+main a:hover,
+main a:active {
+color: #1f3c5c;
+text-decoration: underline;
+}
+
 /* klub oversigt */
 
 .clublist {
@@ -196,10 +206,3 @@ color:white;
 }
 
 /* nyheder */
-
-.news p{
-background:#f2f2f2;
-padding:12px;
-border-radius:6px;
-margin-bottom:10px;
-}
