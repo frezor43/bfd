@@ -205,4 +205,18 @@ line-height:1.6;
 color:white;
 }
 
+.sommerdatoer {
+font-size: 20px;
+line-height: 1.8;
+}
+
+.sommerdatoer a,
+.sommerdatoer a:visited,
+.sommerdatoer a:hover,
+.sommerdatoer a:active {
+color: #1f3c5c;
+text-decoration: underline;
+font-size: 20px;
+}
+
 /* nyheder */
