@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 
     <title>BFD – vælg fællesskab</title>
 
@@ -14,70 +13,61 @@
     >
 
     <link rel="icon" type="image/png" href="logo/bfd_logo_512.png">
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Forsiden får sin egen CSS og forstyrrer ikke bridge-siden -->
+    <link rel="stylesheet" href="portal.css?v=1">
 </head>
 
-<body class="portal-page">
+<body>
 
     <main class="portal">
 
-        <header class="portal-header">
+        <section class="portal-intro">
+
             <img
                 src="logo/bfd_logo_512.png"
                 alt="BFD"
                 class="portal-logo"
             >
 
-            <h1>Velkommen til BFD</h1>
+            <div>
+                <h1>Velkommen til BFD</h1>
+                <p>Vælg det fællesskab, du vil besøge.</p>
+            </div>
 
-            <p>Vælg det fællesskab, du vil besøge.</p>
-        </header>
+        </section>
 
-        <section class="portal-choices">
+        <section class="portal-options">
 
-            <a href="bridge.html" class="portal-card">
-                <img
-                    src="logo/bfd_logo_512.png"
-                    alt=""
-                    class="portal-card-logo"
-                >
+            <a href="bridge.html" class="portal-choice">
 
-                <div>
-                    <h2>Bridgefællesskabet Danmark</h2>
+                <h2>Bridgefællesskabet Danmark</h2>
 
-                    <p>
-                        Bridge, læring og fællesskab i trygge lokale rammer.
-                    </p>
+                <p>
+                    Bridge, læring og fællesskab i trygge lokale rammer.
+                </p>
 
-                    <span class="portal-button">
-                        Gå til Bridgefællesskabet
-                    </span>
-                </div>
+                <span>Gå til Bridgefællesskabet</span>
+
             </a>
 
-            <a href="login.html" class="portal-card">
-                <div class="dialog-symbol" aria-hidden="true">
-                    BFD
-                </div>
+            <a href="login.html" class="portal-choice">
 
-                <div>
-                    <h2>Borgere for Dialog</h2>
+                <h2>Borgere for Dialog</h2>
 
-                    <p>
-                        Møder, oplæg, dialog og fælles initiativer.
-                    </p>
+                <p>
+                    Møder, oplæg, dialog og fælles initiativer.
+                </p>
 
-                    <span class="portal-button">
-                        Log ind
-                    </span>
-                </div>
+                <span>Log ind</span>
+
             </a>
 
         </section>
 
     </main>
 
-    <footer class="portal-footer">
+    <footer>
         <p>© 2026 BFD – bfd.nu</p>
     </footer>
 
