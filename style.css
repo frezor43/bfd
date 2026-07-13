@@ -222,3 +222,147 @@ text-decoration: underline;
 }
 
 /* nyheder */
+/* ==================================================
+   Fælles BFD-forside
+   ================================================== */
+
+.portal-page {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #f4f5f7;
+    color: #1f2933;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portal {
+    width: min(1100px, calc(100% - 32px));
+    margin: auto;
+    padding: 48px 0;
+}
+
+.portal-header {
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.portal-logo {
+    width: 130px;
+    height: auto;
+    margin-bottom: 14px;
+}
+
+.portal-header h1 {
+    margin: 0 0 10px;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+}
+
+.portal-header p {
+    margin: 0;
+    font-size: 1.15rem;
+}
+
+.portal-choices {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+}
+
+.portal-card {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    min-height: 230px;
+    padding: 32px;
+    border: 2px solid transparent;
+    border-radius: 18px;
+    background: #ffffff;
+    color: inherit;
+    text-decoration: none;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.09);
+    transition:
+        transform 160ms ease,
+        box-shadow 160ms ease,
+        border-color 160ms ease;
+}
+
+.portal-card:hover,
+.portal-card:focus-visible {
+    transform: translateY(-4px);
+    border-color: #334e68;
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.14);
+}
+
+.portal-card h2 {
+    margin: 0 0 12px;
+    font-size: 1.7rem;
+}
+
+.portal-card p {
+    margin: 0 0 24px;
+    line-height: 1.55;
+}
+
+.portal-card-logo {
+    width: 120px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.dialog-symbol {
+    width: 120px;
+    height: 120px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #334e68;
+    color: #ffffff;
+    font-size: 1.65rem;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+}
+
+.portal-button {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 9px;
+    background: #334e68;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.portal-footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.portal-footer p {
+    margin: 0;
+}
+
+@media (max-width: 760px) {
+    .portal {
+        padding: 28px 0;
+    }
+
+    .portal-choices {
+        grid-template-columns: 1fr;
+    }
+
+    .portal-card {
+        flex-direction: column;
+        min-height: auto;
+        text-align: center;
+    }
+
+    .portal-card-logo,
+    .dialog-symbol {
+        width: 100px;
+    }
+
+    .dialog-symbol {
+        height: 100px;
+    }
+}
