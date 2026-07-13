@@ -9,58 +9,37 @@
 
     <meta
         name="description"
-        content="BFD er indgangen til Bridgefællesskabet Danmark og Borgere for Dialog."
+        content="Vælg mellem Bridgefællesskabet Danmark og Borgere for Dialog."
     >
 
-    <link rel="icon" type="image/png" href="logo/bfd_logo_512.png">
-
-    <!-- Forsiden får sin egen CSS og forstyrrer ikke bridge-siden -->
-    <link rel="stylesheet" href="portal.css?v=1">
+    <link rel="stylesheet" href="portal.css?v=2">
 </head>
 
 <body>
 
     <main class="portal">
 
-        <section class="portal-intro">
-
-            <img
-                src="logo/bfd_logo_512.png"
-                alt="BFD"
-                class="portal-logo"
-            >
-
-            <div>
-                <h1>Velkommen til BFD</h1>
-                <p>Vælg det fællesskab, du vil besøge.</p>
-            </div>
-
-        </section>
+        <header class="portal-header">
+            <h1>Velkommen til BFD</h1>
+            <p>Vælg det fællesskab, du vil besøge.</p>
+        </header>
 
         <section class="portal-options">
 
-            <a href="bridge.html" class="portal-choice">
+            <a href="bridge.html" class="portal-button">
+                <strong>Bridgefællesskabet Danmark</strong>
 
-                <h2>Bridgefællesskabet Danmark</h2>
-
-                <p>
+                <span>
                     Bridge, læring og fællesskab i trygge lokale rammer.
-                </p>
-
-                <span>Gå til Bridgefællesskabet</span>
-
+                </span>
             </a>
 
-            <a href="login.html" class="portal-choice">
+            <a href="login.html" class="portal-button">
+                <strong>Borgere for Dialog</strong>
 
-                <h2>Borgere for Dialog</h2>
-
-                <p>
+                <span>
                     Møder, oplæg, dialog og fælles initiativer.
-                </p>
-
-                <span>Log ind</span>
-
+                </span>
             </a>
 
         </section>
@@ -68,7 +47,7 @@
     </main>
 
     <footer>
-        <p>© 2026 BFD – bfd.nu</p>
+        © 2026 BFD – bfd.nu
     </footer>
 
 </body>
