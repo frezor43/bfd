@@ -36,6 +36,8 @@ header {
     color: #ffffff;
 }
 
+/* Øverste del med logoer og tekst */
+
 .bfd-header-top {
     width: 100%;
 
@@ -62,6 +64,7 @@ header {
 
 .headertext {
     text-align: center;
+    min-width: 0;
 }
 
 .headertext h1 {
@@ -85,12 +88,13 @@ header {
 
 
 /* =========================
-   NAVIGATION I HEADER
+   DE FEM KNAPPER
    ========================= */
 
 .bfd-nav {
     width: 100%;
-    margin: 28px 0 0;
+    max-width: 1200px;
+    margin: 30px auto 0;
 
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -98,12 +102,12 @@ header {
 }
 
 .bfd-nav a {
-    min-height: 46px;
-    padding: 12px 10px;
-
     display: flex;
     align-items: center;
     justify-content: center;
+
+    min-height: 46px;
+    padding: 12px 10px;
 
     background: #ffffff;
     color: #17324d;
@@ -125,7 +129,6 @@ header {
 .bfd-nav a:focus-visible {
     background: #17324d;
     color: #ffffff;
-
     transform: translateY(-2px);
 }
 
@@ -191,7 +194,7 @@ footer p {
 
 
 /* =========================
-   MOBIL
+   TABLET OG MOBIL
    ========================= */
 
 @media (max-width: 750px) {
@@ -249,25 +252,29 @@ footer p {
 @media (max-width: 500px) {
 
     .bfd-header-top {
-        grid-template-columns: 65px minmax(0, 1fr) 65px;
+        grid-template-columns: 60px minmax(0, 1fr) 60px;
         gap: 8px;
     }
 
     .logo,
     .logo-right {
-        width: 60px;
+        width: 58px;
     }
 
     .headertext h1 {
-        font-size: 1.55rem;
+        font-size: 1.5rem;
     }
 
     .bfdintro {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
         line-height: 1.45;
     }
 
     .bfd-nav a {
         font-size: 0.85rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
     }
 }
