@@ -15,6 +15,7 @@ body {
 
     background: #3f719d;
     color: #17324d;
+
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -49,7 +50,9 @@ header {
 
 
 /* =========================
-   LOGOER MED DISKRET LYS BAGGRUND
+   LOGOER
+   Lys bag selve motivet
+   Uden stor hvid cirkel
    ========================= */
 
 .logo,
@@ -62,11 +65,17 @@ header {
     max-width: 100%;
     object-fit: contain;
 
-    background: rgba(255, 255, 255, 0.48);
-    border-radius: 50%;
-    padding: 2px;
+    padding: 0;
 
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.10);
+    background: radial-gradient(
+        circle closest-side at 52% 47%,
+        #ffffff 0 69%,
+        rgba(255, 255, 255, 0.65) 75%,
+        transparent 81%
+    );
+
+    border-radius: 0;
+    box-shadow: none;
 }
 
 .logo-right {
@@ -127,6 +136,7 @@ header {
 
     background: #ffffff;
     color: #17324d;
+
     border-radius: 8px;
 
     text-align: center;
@@ -144,6 +154,7 @@ header {
 .bfd-nav a:focus-visible {
     background: #17324d;
     color: #ffffff;
+
     transform: translateY(-2px);
 }
 
@@ -246,7 +257,7 @@ footer p {
     .logo,
     .logo-right {
         width: 85px;
-        padding: 2px;
+        padding: 0;
     }
 
     .headertext h1 {
